@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - jana animetion</title>
+    <style>
+        body {
+            background-color: hsl(202, 11%, 33%);
+            color: rgb(185, 40, 151);
+            font-family: 'Times New Roman', Times, serif;
+        }
+        body {
+            background-color: hsl(202, 11%, 33%);
+            
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    label {
+        display: block;
+        margin-top: 10px;
+        color: white;
+    }
+    input[type="text"], input[type="email"], textarea {
+        width: 50%;
+      padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    input[type="submit"] {
+        background-color: #ffa500;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #00e632;
+    }
+    form {
+        width: 20%;
+        margin: 10px auto;
+        background-color: #333;
+        text-align: center;
+       border-radius: 10px;
+    }
+    h1 {
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Contact Us</h1>
+        <p><b>Contact Number:</b> 9342683824</p>
+        <p><b>Email:</b> janarthanan5757@gmail.com</p>
+    </center>
+      
+    <center>
+
+    <form action="/submit_form" method="POST"></form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="5" placeholder="Your feedback" required></textarea>
+  <br>
+        <input type="submit" value="Submit">
+    </form>
+</center> 
+    
+
+
+</body>
+</html>
